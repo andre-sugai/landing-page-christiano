@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
           href={AIRBNB_LINK} 
           target="_blank" 
           rel="noopener noreferrer"
-          className={`px-6 py-2 rounded-full font-semibold transition-all shadow-lg hover:scale-105 active:scale-95 ${
+          className={`px-4 py-1.5 md:px-6 md:py-2 text-sm md:text-base rounded-full font-semibold transition-all shadow-lg hover:scale-105 active:scale-95 ${
             isScrolled 
               ? 'bg-primary text-white hover:bg-rose-700' 
               : 'bg-white text-primary hover:bg-gray-100'
