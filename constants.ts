@@ -17,14 +17,43 @@ import { Attraction, Amenity, Photo, Testimonial } from './types';
 export const AIRBNB_LINK = "https://www.airbnb.com.br/rooms/1007950539871196333";
 
 export const PHOTOS: Photo[] = [
-  { src: "https://picsum.photos/id/10/1200/800", alt: "Vista geral do apartamento", category: "apartment" },
-  { src: "https://picsum.photos/id/42/800/600", alt: "Sala de estar iluminada", category: "apartment" },
-  { src: "https://picsum.photos/id/16/800/600", alt: "Quarto confortável", category: "apartment" },
-  { src: "https://picsum.photos/id/20/800/600", alt: "Cozinha equipada", category: "apartment" },
-  { src: "https://picsum.photos/id/24/800/600", alt: "Banheiro moderno", category: "apartment" },
-  { src: "https://picsum.photos/id/48/1200/800", alt: "Área de coworking do prédio", category: "building" },
-  { src: "https://picsum.photos/id/56/800/600", alt: "Piscina no rooftop", category: "building" },
-  { src: "https://picsum.photos/id/60/800/600", alt: "Academia completa", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche28.webp", alt: "Hall de entrada", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche29.webp", alt: "Corredores", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche30.webp", alt: "Elevadores", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche31.webp", alt: "Escadas de acesso", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche32.webp", alt: "Garagem", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche33.webp", alt: "Bicicletário", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche34.webp", alt: "Jardim", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche35.webp", alt: "Playground", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche36.webp", alt: "Sala de jogos", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche37.webp", alt: "Vista noturna", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche1.webp", alt: "Vista geral do apartamento", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche2.webp", alt: "Sala de estar iluminada", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche3.webp", alt: "Quarto confortável", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche4.webp", alt: "Cozinha equipada", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche5.webp", alt: "Banheiro moderno", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche6.webp", alt: "Área de coworking do prédio", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche7.webp", alt: "Piscina no rooftop", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche8.webp", alt: "Academia completa", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche9.webp", alt: "Área comum", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche10.webp", alt: "Área de convivência", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche11.webp", alt: "Fachada e arredores", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche12.webp", alt: "Vista do bairro", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche13.webp", alt: "Espaço gourmet", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche14.webp", alt: "Lavanderia equipada", category: "building" },
+  { src: "/images/airbnb-boulevard-arouche15.webp", alt: "Detalhes do interior", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche16.webp", alt: "Decoração moderna", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche17.webp", alt: "Conforto e estilo", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche18.webp", alt: "Ambiente acolhedor", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche19.webp", alt: "Iluminação natural", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche20.webp", alt: "Vista da janela", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche21.webp", alt: "Cozinha e utensílios", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche22.webp", alt: "Banheiro e amenidades", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche23.webp", alt: "Quarto aconchegante", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche24.webp", alt: "Sala de estar", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche25.webp", alt: "Detalhes decorativos", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche26.webp", alt: "Espaço funcional", category: "apartment" },
+  { src: "/images/airbnb-boulevard-arouche27.webp", alt: "Área de serviço", category: "apartment" },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
@@ -65,7 +94,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: Waves, 
     label: "Piscina", 
     description: "Rooftop com vista panorâmica",
-    image: "https://picsum.photos/id/56/800/600",
+    image: "/images/airbnb-boulevard-arouche9.webp",
     details: "Relaxe e recarregue as energias em nossa piscina no terraço. Com uma vista de tirar o fôlego do skyline de São Paulo, é o lugar perfeito para apreciar o pôr do sol ou dar um mergulho refrescante após um dia explorando a cidade. Sinta-se à vontade para usar as espreguiçadeiras e aproveitar o sol.",
     rules: [
       "Horário de funcionamento: 06:00 às 22:00.",
@@ -78,7 +107,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: Dumbbell, 
     label: "Academia", 
     description: "Equipamentos modernos",
-    image: "https://picsum.photos/id/60/800/600",
+    image: "/images/airbnb-boulevard-arouche10.webp",
     details: "Não deixe sua rotina de exercícios de lado durante a viagem! Nossa academia é completa, moderna e climatizada, preparada para treinos de musculação e cardio. Mantenha o corpo em movimento com conforto e segurança sem precisar sair do prédio.",
     rules: [
       "Horário de funcionamento: 24 horas.",
@@ -91,7 +120,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: ShieldCheck, 
     label: "Portaria 24h", 
     description: "Segurança total",
-    image: "https://picsum.photos/id/30/800/600", // Generic building entrance/hall
+    image: "/images/airbnb-boulevard-arouche11.webp", // Generic building entrance/hall
     details: "Sua segurança e tranquilidade são nossa prioridade. O edifício conta com portaria presencial 24 horas por dia e monitoramento por câmeras. Nossa equipe é treinada para receber você com cordialidade e auxiliar no que for preciso durante sua chegada e saída.",
     rules: [
       "Identifique-se sempre ao entrar no condomínio.",
@@ -103,7 +132,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: MapPin, 
     label: "Localização Central", 
     description: "Próximo ao metrô",
-    image: "https://picsum.photos/id/40/800/600", // Generic city street
+    image: "/images/airbnb-boulevard-arouche12.webp", // Generic city street
     details: "Você estará no coração pulsante de São Paulo! Nossa localização permite que você faça quase tudo a pé. Estamos a poucos passos da estação de Metrô República, facilitando o acesso a qualquer ponto da cidade, além de estarmos cercados pelos melhores restaurantes e teatros.",
     rules: [
       "Aproveite para explorar o bairro a pé durante o dia.",
@@ -114,7 +143,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: Laptop, 
     label: "Coworking", 
     description: "Ambiente para trabalho remoto",
-    image: "https://picsum.photos/id/48/800/600",
+    image: "/images/airbnb-boulevard-arouche13.webp",
     details: "Precisa focar no trabalho? Temos um espaço de coworking dedicado, silencioso e com internet rápida, perfeito para reuniões virtuais ou para finalizar aquele projeto importante. Um ambiente profissional e inspirador sem sair do prédio.",
     rules: [
       "Horário de funcionamento: 08:00 às 22:00.",
@@ -127,7 +156,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     icon: WashingMachine, 
     label: "Lavanderia", 
     description: "Máquinas de lavar e secar",
-    image: "https://picsum.photos/id/90/800/600", // Generic texture closer to laundry vibes
+    image: "/images/airbnb-boulevard-arouche14.webp", // Generic texture closer to laundry vibes
     details: "Viaje leve! O prédio conta com uma lavanderia OMO moderna e prática. Com máquinas de lavar e secar profissionais, você cuida das suas roupas de forma rápida e eficiente, garantindo que tudo esteja limpo e cheiroso para o seu próximo passeio.",
     rules: [
       "O serviço é pago à parte via aplicativo da OMO Lavanderia.",
@@ -144,7 +173,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Pinacoteca de São Paulo",
     description: "Museu de arte com foco em pinturas e esculturas brasileiras do século XIX. Prédio histórico e estrutura completa.",
     type: "culture",
-    image: "https://picsum.photos/id/120/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo1.webp",
     address: "Praça da Luz, 2 - Luz, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Pinacoteca+de+Sao+Paulo",
     curiosities: [
@@ -156,7 +185,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Estação Pinacoteca",
     description: "Espaço expositivo ligado à Pinacoteca, no Largo General Osório, com arte contemporânea.",
     type: "culture",
-    image: "https://picsum.photos/id/121/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo2.webp",
     address: "Largo General Osório, 66 - Santa Efigênia, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Estacao+Pinacoteca",
     curiosities: [
@@ -168,7 +197,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Museu Catavento",
     description: "Museu de ciências interativo no Parque Dom Pedro II, excelente para crianças e adultos.",
     type: "culture",
-    image: "https://picsum.photos/id/122/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo3.webp",
     address: "Av. Mercúrio, s/n - Parque Dom Pedro II, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Museu+Catavento",
     curiosities: [
@@ -180,7 +209,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Theatro Municipal",
     description: "Um dos mais importantes teatros do Brasil e cartão postal da cidade.",
     type: "culture",
-    image: "https://picsum.photos/id/123/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo4.webp",
     address: "Praça Ramos de Azevedo, s/n - República, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Theatro+Municipal+de+Sao+Paulo",
     curiosities: [
@@ -194,7 +223,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Praça da República",
     description: "Feira de artesanato e comidas, prédios históricos e fácil acesso a pé.",
     type: "park",
-    image: "https://picsum.photos/id/124/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo5.webp",
     address: "Praça da República - República, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Praca+da+Republica+Sao+Paulo",
     curiosities: [
@@ -206,7 +235,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Parque Augusta",
     description: "Refúgio verde em meio ao centro, ótimo para relaxar.",
     type: "park",
-    image: "https://picsum.photos/id/125/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo6.webp",
     address: "R. Augusta, 200 - Consolação, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Parque+Augusta",
     curiosities: [
@@ -220,7 +249,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "A Casa do Porco",
     description: "Eleito um dos melhores restaurantes do mundo. Cozinha criativa focada em carne suína.",
     type: "food",
-    image: "https://picsum.photos/id/126/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo7.webp",
     address: "R. Araújo, 124 - República, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=A+Casa+do+Porco",
     curiosities: [
@@ -232,7 +261,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Bar da Dona Onça",
     description: "Liderado pela chef Janaína Torres, no icônico Edifício Copan.",
     type: "food",
-    image: "https://picsum.photos/id/127/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo8.webp",
     address: "Av. Ipiranga, 200 - lojas 27-29 - Centro Histórico de São Paulo",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Bar+da+Dona+Onca",
     curiosities: [
@@ -244,7 +273,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Terraço Itália",
     description: "Vista panorâmica incrível da cidade e culinária italiana sofisticada.",
     type: "food",
-    image: "https://picsum.photos/id/128/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo9.webp",
     address: "Av. Ipiranga, 344 - 41º e 42º - República, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Terraco+Italia",
     curiosities: [
@@ -256,7 +285,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Esther Rooftop",
     description: "No rooftop de um edifício tombado de 1930, harmoniza pratos franceses com vista.",
     type: "food",
-    image: "https://picsum.photos/id/129/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo10.webp",
     address: "R. Basílio da Gama, 29 - República, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Esther+Rooftop",
     curiosities: [
@@ -270,7 +299,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Tokyo",
     description: "Bares, karaokês, música e restaurante em um prédio de 9 andares.",
     type: "nightlife",
-    image: "https://picsum.photos/id/130/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo11.webp",
     address: "R. Maj. Sertório, 110 - Vila Buarque, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Tokyo+011",
     curiosities: [
@@ -282,7 +311,7 @@ export const ATTRACTIONS: Attraction[] = [
     name: "Bar do Cofre",
     description: "Localizado no antigo cofre do Banco do Estado, no subsolo do Farol Santander.",
     type: "nightlife",
-    image: "https://picsum.photos/id/131/400/300",
+    image: "/images/airbnb-boulevard-arouche-turismo12.webp",
     address: "R. João Brícola, 24 - Centro Histórico de São Paulo, São Paulo - SP",
     mapLink: "https://www.google.com/maps/search/?api=1&query=Bar+do+Cofre+SubAstor",
     curiosities: [

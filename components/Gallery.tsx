@@ -167,7 +167,7 @@ const Gallery: React.FC = () => {
 
           {/* Bottom Thumbnails */}
           <div 
-            className="w-full h-24 bg-black/40 backdrop-blur-md flex items-center justify-center space-x-3 overflow-x-auto px-4 py-2"
+            className="w-full h-24 bg-black/40 backdrop-blur-md flex items-center justify-start space-x-3 overflow-x-auto px-4 py-2"
             onClick={(e) => e.stopPropagation()}
           >
             {PHOTOS.map((photo, index) => (

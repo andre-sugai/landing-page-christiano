@@ -42,8 +42,8 @@ const ApartmentDetails: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://picsum.photos/id/42/800/1000" 
-                alt="Detalhe do interior" 
+                src="/images/airbnb-boulevard-arouche23.webp" 
+                alt="Quarto aconchegante" 
                 className="w-full h-full object-cover"
               />
             </div>

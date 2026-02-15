@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://picsum.photos/id/42/1920/1080" 
-          alt="Interior do Apartamento" 
+          src="/images/airbnb-boulevard-arouche28.webp" 
+          alt="Hall de Entrada Boulevard Arouche" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40"></div>

@@ -50,7 +50,7 @@ const Tour360: React.FC = () => {
         >
           {/* Background Image (Preview) */}
           <img 
-            src="https://picsum.photos/id/42/1200/800" 
+            src="/images/airbnb-boulevard-arouche28.webp" 
             alt="Capa do Tour Virtual" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
