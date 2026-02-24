@@ -12,13 +12,13 @@ const ApartmentDetails: React.FC = () => {
           <div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">Conforto e Design no Centro</h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              Este estúdio foi projetado para oferecer a máxima comodidade para sua estadia em São Paulo. 
+              Este apartamento foi projetado para oferecer a máxima comodidade para sua estadia em São Paulo. 
               Com decoração moderna, o espaço integra quarto, sala e cozinha de forma harmoniosa, 
               criando um ambiente acolhedor e funcional.
             </p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Ideal para casais, viajantes individuais ou profissionais em viagem de negócios. 
-              Desfrute de uma noite de sono tranquila em nossa cama queen-size e prepare suas 
+              Desfrute de uma noite de sono tranquila em nossa cama de casal e prepare suas 
               próprias refeições na cozinha totalmente equipada.
             </p>
 

@@ -95,7 +95,7 @@ export const AMENITIES: Amenity[] = [
   { icon: Wind, label: "Ar Condicionado", description: "Climatização quente e frio" },
   { icon: Monitor, label: "Smart TV", description: "Com acesso a Netflix e YouTube" },
   { icon: Utensils, label: "Cozinha Completa", description: "Fogão, microondas e utensílios" },
-  { icon: Coffee, label: "Cafeteira Nespresso", description: "Para os amantes de café" },
+  { icon: Coffee, label: "Cafeteira Dolce Gusto", description: "Para os amantes de café" },
   { icon: Briefcase, label: "Espaço de Trabalho", description: "Mesa confortável para trabalhar" },
 ];
 
@@ -120,7 +120,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     image: "/images/airbnb-boulevard-arouche10.webp",
     details: "Não deixe sua rotina de exercícios de lado durante a viagem! Nossa academia é completa, moderna e climatizada, preparada para treinos de musculação e cardio. Mantenha o corpo em movimento com conforto e segurança sem precisar sair do prédio.",
     rules: [
-      "Horário de funcionamento: 24 horas.",
+      "Horário de funcionamento: 06:00 às 24:00.",
       "Higienize os aparelhos após o uso com o álcool disponível.",
       "Guarde os pesos e colchonetes no lugar após o uso.",
       "Use roupas e calçados adequados para prática esportiva."
@@ -156,7 +156,7 @@ export const BUILDING_FEATURES: Amenity[] = [
     image: "/images/airbnb-boulevard-arouche13.webp",
     details: "Precisa focar no trabalho? Temos um espaço de coworking dedicado, silencioso e com internet rápida, perfeito para reuniões virtuais ou para finalizar aquele projeto importante. Um ambiente profissional e inspirador sem sair do prédio.",
     rules: [
-      "Horário de funcionamento: 08:00 às 22:00.",
+      "Horário de funcionamento: 06:00 às 24:00.",
       "Mantenha o silêncio e use fones de ouvido para chamadas.",
       "Não deixe pertences pessoais nas mesas ao sair.",
       "Mantenha o espaço limpo e organizado."
@@ -167,9 +167,9 @@ export const BUILDING_FEATURES: Amenity[] = [
     label: "Lavanderia", 
     description: "Máquinas de lavar e secar",
     image: "/images/airbnb-boulevard-arouche14.webp", // Generic texture closer to laundry vibes
-    details: "Viaje leve! O prédio conta com uma lavanderia OMO moderna e prática. Com máquinas de lavar e secar profissionais, você cuida das suas roupas de forma rápida e eficiente, garantindo que tudo esteja limpo e cheiroso para o seu próximo passeio.",
+    details: "Viaje leve! O prédio conta com uma lavanderia LavCon moderna e prática. Com máquinas de lavar e secar profissionais, você cuida das suas roupas de forma rápida e eficiente, garantindo que tudo esteja limpo e cheiroso para o seu próximo passeio.",
     rules: [
-      "O serviço é pago à parte via aplicativo da OMO Lavanderia.",
+      "O serviço é pago à parte via aplicativo da LavCon.",
       "Retire suas roupas da máquina assim que o ciclo terminar.",
       "Respeite a vez dos outros hóspedes caso haja fila.",
       "Não utilize produtos que não sejam os indicados pelas máquinas."
