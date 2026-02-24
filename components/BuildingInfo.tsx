@@ -34,7 +34,7 @@ const BuildingInfo: React.FC = () => {
           
           <div className="w-full md:w-1/2">
             <img 
-              src="https://picsum.photos/id/56/800/600" 
+              src="/images/boulevard-arouche.png" 
               alt="Piscina do Edifício Boulevard Arouche" 
               className="rounded-2xl shadow-2xl border border-slate-700"
             />
