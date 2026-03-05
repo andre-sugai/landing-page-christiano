@@ -303,6 +303,42 @@ export const ATTRACTIONS: Attraction[] = [
       "O chef Olivier Anquier transformou seu antigo apartamento neste restaurante."
     ]
   },
+  {
+    name: "Merenda da Cidade",
+    description: "Restaurante dos chefs Janaína e Jefferson Rueda (A Casa do Porco) com prato feito da culinária cotidiana brasileira a preços acessíveis.",
+    type: "food",
+    image: "/images/merenda-da-cidade.webp",
+    address: "R. Epitácio Pessoa, 98 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Merenda+da+Cidade+Rua+Epitacio+Pessoa+Sao+Paulo",
+    curiosities: [
+      "Criado pelos chefs Janaína e Jefferson Rueda, era o refeitório dos colaboradores do grupo e foi aberto ao público.",
+      "Cardápio muda diariamente com pratos clássicos: virado à paulista, bife à rolê, estrogonofe e feijoada aos sábados."
+    ]
+  },
+  {
+    name: "La Casserole",
+    description: "Clássico restaurante francês no Largo do Arouche, em funcionamento desde 1954. Um dos mais tradicionais do centro de São Paulo.",
+    type: "food",
+    image: "/images/casaroli.webp",
+    address: "Largo do Arouche, 346 - Centro, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=La+Casserole+Largo+do+Arouche+Sao+Paulo",
+    curiosities: [
+      "Fundado em 1954, é um dos restaurantes franceses mais antigos e tradicionais de São Paulo.",
+      "Localizado no charmoso Largo do Arouche, a poucos metros do apartamento."
+    ]
+  },
+  {
+    name: "O Gato que Ri",
+    description: "Cantina italiana tradicional fundada em 1951 por Dona Amélia Mazotti, com massas artesanais e molhos próprios no Largo do Arouche.",
+    type: "food",
+    image: "/images/gato.webp",
+    address: "Largo do Arouche, 37 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=O+Gato+que+Ri+Largo+do+Arouche+Sao+Paulo",
+    curiosities: [
+      "Fundada em 1951 pela imigrante italiana Dona Amélia, que trouxe suas receitas de família da Itália.",
+      "Possui fábrica de massas anexa ao salão — clientes podem levar massas e molhos frescos para casa."
+    ]
+  },
 
   // Vida Noturna
   {
@@ -327,6 +363,80 @@ export const ATTRACTIONS: Attraction[] = [
     curiosities: [
       "Fica dentro do antigo cofre-forte do Banespa, com portas circulares de aço maciço originais.",
       "Mantém as caixas de depósito individuais dos antigos clientes como parte da decoração."
+    ]
+  },
+  {
+    name: "Love Cabaret",
+    description: "Casa noturna com shows, música ao vivo e performances artísticas no centro de São Paulo, em frente ao icônico Edifício Copan.",
+    type: "nightlife",
+    image: "/images/love.webp",
+    address: "R. Araújo, 232 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Love+Cabaret+Rua+Araujo+232+Sao+Paulo",
+    curiosities: [
+      "Localizado na Rua Araújo, 232, em frente ao Edifício Copan, obra de Oscar Niemeyer.",
+      "Combina shows ao vivo com ambiente de cabaré em pleno coração da República."
+    ]
+  },
+  {
+    name: "Edifício Martinelli",
+    description: "O primeiro arranha-céu do Brasil, inaugurado em 1929, com terraço de eventos e vista panorâmica incrível do centro histórico de São Paulo.",
+    type: "nightlife",
+    image: "/images/martinelli.webp",
+    address: "Av. São João, 35 - Centro Histórico de São Paulo, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Edificio+Martinelli+Avenida+Sao+Joao+Sao+Paulo",
+    curiosities: [
+      "Inaugurado em 1929, foi o primeiro arranha-céu da América Latina, com 30 andares.",
+      "O Grupo Tokyo administra parte do edifício e planeja abrir café e restaurante no local."
+    ]
+  },
+  {
+    name: "Bar dos Arcos",
+    description: "Bar charmoso localizado dentro do Theatro Municipal de São Paulo, com música ao vivo e boemia no mais icônico teatro do Brasil.",
+    type: "nightlife",
+    image: "/images/arcos.webp",
+    address: "Praça Ramos de Azevedo, s/n - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Bar+dos+Arcos+Theatro+Municipal+Sao+Paulo",
+    curiosities: [
+      "Funciona dentro do Theatro Municipal de São Paulo, inaugurado em 1911 e inspirado na Ópera de Paris.",
+      "Uma experiência única de combinar cultura e vida noturna em um dos edifícios mais importantes da cidade."
+    ]
+  },
+  {
+    name: "Shopping Light",
+    description: "Shopping no histórico Edifício Alexandre Mackenzie, ao lado do Theatro Municipal e do Viaduto do Chá, com 250 lojas.",
+    type: "shopping",
+    image: "/images/light.webp",
+    address: "R. Coronel Xavier de Toledo, 23 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Shopping+Light+Sao+Paulo",
+    curiosities: [
+      "Instalado no histórico Edifício Alexandre Mackenzie, tombado pelo patrimônio histórico de São Paulo.",
+      "Próximo à estação Anhangabaú do Metrô e ao Terminal Bandeira, ideal para compras no centro."
+    ]
+  },
+
+  // Estacionamentos
+  {
+    name: "Brasil Park",
+    description: "Estacionamento convenientemente localizado no Largo do Arouche, a poucos metros do apartamento.",
+    type: "parking",
+    image: "/images/brasil-park.webp",
+    address: "Largo do Arouche, 77 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=Brasil+Park+Estacionamento+Largo+Arouche+77+Sao+Paulo",
+    curiosities: [
+      "Localizado no próprio Largo do Arouche, é a opção mais próxima ao apartamento.",
+      "Estratégico para quem chega de carro e quer explorar o centro histórico a pé."
+    ]
+  },
+  {
+    name: "SKY Blue Estacionamento",
+    description: "Estacionamento 24 horas na Rua Rego Freitas, ideial para quem visita a região da República a qualquer hora do dia ou da noite.",
+    type: "parking",
+    image: "/images/sky.webp",
+    address: "R. Rego Freitas, 147/161 - República, São Paulo - SP",
+    mapLink: "https://www.google.com/maps/place/RS+Park/@-23.5431868,-46.646554,21z/data=!4m15!1m8!3m7!1s0x94ce5848ab5fc3ef:0xb9d200f5a3e77226!2sR.+Rego+Freitas,+147+-+Vila+Buarque,+S%C3%A3o+Paulo+-+SP,+01220-010!3b1!8m2!3d-23.5431016!4d-46.6464696!16s%2Fg%2F11wbjych0k!3m5!1s0x94ce5848ac957c29:0x6f09a3ab8f532c64!8m2!3d-23.5431016!4d-46.6464696!16s%2Fg%2F1ptx46s1g?entry=ttu&g_ep=EgoyMDI2MDMwMi4wIKXMDSoASAFQAw%3D%3D",
+    curiosities: [
+      "Funciona 24 horas por dia, 7 dias por semana, ideal para quem curte a vida noturna da República.",
+      "Próximo ao Love Cabaret e a diversos bares e restaurantes da região."
     ]
   },
 ];

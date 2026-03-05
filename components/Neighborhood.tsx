@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { ATTRACTIONS } from '../constants';
 import { Attraction } from '../types';
-import { MapPin, Coffee, Landmark, Trees, Music, X, ExternalLink, Lightbulb } from 'lucide-react';
+import { MapPin, Coffee, Landmark, Trees, Music, X, ExternalLink, Lightbulb, ShoppingBag, Car } from 'lucide-react';
 
 const Neighborhood: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'all' | 'culture' | 'food' | 'park' | 'nightlife'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'culture' | 'food' | 'park' | 'nightlife' | 'shopping' | 'parking'>('all');
   const [selectedAttraction, setSelectedAttraction] = useState<Attraction | null>(null);
 
   const filteredAttractions = activeTab === 'all' 
@@ -17,18 +17,16 @@ const Neighborhood: React.FC = () => {
     { id: 'food', label: 'Gastronomia', icon: Coffee },
     { id: 'park', label: 'Parques', icon: Trees },
     { id: 'nightlife', label: 'Vida Noturna', icon: Music },
+    { id: 'shopping', label: 'Compras', icon: ShoppingBag },
+    { id: 'parking', label: 'Estacionamentos', icon: Car },
   ];
 
   const otherHighlights = [
     { name: "Sampa SKY", url: "https://www.google.com/maps/search/?api=1&query=Sampa+SKY" },
     { name: "Copan", url: "https://www.google.com/maps/search/?api=1&query=Edificio+Copan" },
     { name: "Galeria do Rock", url: "https://www.google.com/maps/search/?api=1&query=Galeria+do+Rock" },
-    { name: "Shopping Light", url: "https://www.google.com/maps/search/?api=1&query=Shopping+Light" },
     { name: "Sala São Paulo", url: "https://www.google.com/maps/search/?api=1&query=Sala+Sao+Paulo" },
-    { name: "Love Cabaret", url: "https://www.google.com/maps/search/?api=1&query=Love+Cabaret" },
-    { name: "Gato que Ri", url: "https://www.google.com/maps/search/?api=1&query=Restaurante+Gato+Que+Ri" },
     { name: "L'Entrecôte d'Olivier", url: "https://www.google.com/maps/search/?api=1&query=L'Entrecôte+d'Olivier" },
-    { name: "La Casserole", url: "https://www.google.com/maps/search/?api=1&query=La+Casserole" },
     { name: "Mercado das Flores", url: "https://www.google.com/maps/search/?api=1&query=Mercado+das+Flores+Arouche" },
   ];
 
@@ -167,11 +165,15 @@ const Neighborhood: React.FC = () => {
                   selectedAttraction.type === 'culture' ? 'bg-purple-500' :
                   selectedAttraction.type === 'food' ? 'bg-orange-500' :
                   selectedAttraction.type === 'park' ? 'bg-green-500' :
+                  selectedAttraction.type === 'shopping' ? 'bg-blue-500' :
+                  selectedAttraction.type === 'parking' ? 'bg-slate-500' :
                   'bg-pink-500'
                 }`}>
                   {selectedAttraction.type === 'food' ? 'Comer & Beber' : 
                    selectedAttraction.type === 'culture' ? 'Cultura' :
-                   selectedAttraction.type === 'park' ? 'Parque' : 'Noite'}
+                   selectedAttraction.type === 'park' ? 'Parque' :
+                   selectedAttraction.type === 'shopping' ? 'Compras' :
+                   selectedAttraction.type === 'parking' ? 'Estacionamento' : 'Noite'}
                 </span>
               </div>
             </div>
@@ -258,11 +260,15 @@ const Card: React.FC<{ attraction: Attraction }> = ({ attraction }) => (
           attraction.type === 'culture' ? 'bg-purple-500' :
           attraction.type === 'food' ? 'bg-orange-500' :
           attraction.type === 'park' ? 'bg-green-500' :
+          attraction.type === 'shopping' ? 'bg-blue-500' :
+          attraction.type === 'parking' ? 'bg-slate-500' :
           'bg-pink-500'
         }`}>
           {attraction.type === 'food' ? 'Comer & Beber' : 
            attraction.type === 'culture' ? 'Cultura' :
-           attraction.type === 'park' ? 'Parque' : 'Noite'}
+           attraction.type === 'park' ? 'Parque' :
+           attraction.type === 'shopping' ? 'Compras' :
+           attraction.type === 'parking' ? 'Estacionamento' : 'Noite'}
         </span>
       </div>
     </div>

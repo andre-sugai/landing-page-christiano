@@ -4,7 +4,7 @@ export interface Attraction {
   name: string;
   description: string;
   distance?: string;
-  type: 'culture' | 'park' | 'food' | 'nightlife' | 'transport';
+  type: 'culture' | 'park' | 'food' | 'nightlife' | 'transport' | 'shopping' | 'parking';
   image?: string;
   address?: string; // Endereço físico
   mapLink?: string; // Link para o Google Maps
